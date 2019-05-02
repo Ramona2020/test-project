@@ -1,0 +1,15 @@
+/* Add your own CSS rules here */
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-lg[type="poem"] tei-head {
+  color: red;
+}
+
+tei-head:before {content: "***"}
+tei-head:after {content: "***"}
